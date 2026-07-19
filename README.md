@@ -41,8 +41,8 @@ You can **GET** values state if you inject a node with topic:
 - Yield Today
 - Yield Yesterday
 - Yield Total
-- Max charge current state
-- Absorb voltage value
-- Float voltage value
-- Device Mode ON/OFF
+- Max charge current state [after GET command]
+- Absorb voltage value [after GET command]
+- Float voltage value [after GET command]
+- Device Mode ON/OFF [after GET command]
 - and you can add more if you read **[ve.direct protocol](https://www.victronenergy.com/upload/documents/VE.Direct-Protocol-3.33.pdf)**
