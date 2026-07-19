@@ -8,7 +8,8 @@ Import j.son file into Node-Red.
 You will receive data every second until you stop the serial port.
 
 You ca **SET** some values:
-If you send a payload **[0....70]** with topic **set_charge_current** you can set charge current
+
+If you send a payload **[0....70]** with topic **set_charge_current** you can set charge current<br>
 You can set Absortion Voltage if you send payload **[55.4....]** with topic **set_absorption_voltage**
 You can set Float Voltage if you send payload **[55.4....]** with topic **set_float_voltage**
 You can control mppt ON/OFF if you send a payload **[1 for ON and 4 for OFF]** with topic **set_device_mode**
